@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity"
+    android:background="@color/AboutColor"
+    >
+
+
+    <TextView
+        android:id="@+id/line1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:text="Made by "
+        android:textAlignment="center"
+        android:textColor="@color/Blue"
+/>
+    <TextView
+        android:id="@+id/line2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line1"
+        android:layout_centerHorizontal="true"
+        android:padding="5dp"
+
+        android:textSize="22dp"
+
+        android:text="Sabrina Mostafij Mumu"
+        android:textAlignment="center"
+        android:textColor="@color/Write"
+        />
+
+    <TextView
+        android:id="@+id/line3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line2"
+        android:layout_centerHorizontal="true"
+        android:padding="5dp"
+
+        android:textSize="22dp"
+
+        android:text="AUST,CSE"
+        android:textAlignment="center"
+        android:textColor="@color/Write"
+        />
+
+    <TextView
+        android:id="@+id/line4"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line3"
+        android:layout_centerHorizontal="true"
+        android:padding="20dp"
+
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:text="Android Version"
+        android:textAlignment="center"
+        android:textColor="@color/Blue"
+        />
+
+    <TextView
+        android:id="@+id/line5"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line4"
+        android:layout_centerHorizontal="true"
+        android:padding="5dp"
+
+        android:textSize="22dp"
+
+        android:text="5.0.1(Lollipop)"
+        android:textAlignment="center"
+        android:textColor="@color/Write"
+        />
+
+
+</RelativeLayout>
